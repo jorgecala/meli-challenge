@@ -1,0 +1,12 @@
+.products-list {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+  background-color: #fff;
+  &--empty {
+    font-size: 14px;
+    color: #aaaaaa;
+  }
+}
