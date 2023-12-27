@@ -1,0 +1,26 @@
+/* Fuentes y tipografía */
+body {
+  font-family:
+    'Proxima Nova',
+    -apple-system,
+    Roboto,
+    Arial,
+    sans-serif;
+  font-size: 13px;
+  background-color: #eee;
+}
+
+input::placeholder {
+  color: #999999; /* Color gris claro */
+}
+
+/* Contenedor principal de la aplicación */
+.App {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
