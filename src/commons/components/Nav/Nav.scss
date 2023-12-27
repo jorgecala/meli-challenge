@@ -1,0 +1,40 @@
+// Variables (si las necesitas)
+$navHeight: 70px;
+$navBgColor: #ffe600;
+$maxWidth: 1200px;
+
+.nav-header {
+  height: $navHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $navBgColor;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.header-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 8px 10px 12px 10px;
+  position: relative;
+  width: 100%;
+  max-width: $maxWidth;
+  margin: 0 auto;
+  &__logo {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: flex-start;
+  }
+}
+
+.logo-image {
+  background-image: url('/assets/logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+}
