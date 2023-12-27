@@ -1,0 +1,27 @@
+.breadcrumb {
+  list-style: none;
+  margin: 16px auto;
+  padding: 0;
+  &__item {
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+
+    &:not(:last-child)::after {
+      display: inline-block;
+      content: '';
+      height: 16px;
+      width: 16px;
+      background: url('/assets/cd-custom-separator.svg') no-repeat center center;
+      vertical-align: middle;
+    }
+    &:last-child {
+      font-weight: bold;
+      color: #666;
+    }
+  }
+  &__empty {
+    font-size: 14px;
+    color: 999;
+  }
+}
